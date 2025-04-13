@@ -8,7 +8,7 @@ export default function SpaceDayCelebration() {
       return (
         <div className="overview pb-9">
           {Object.values(overview).map((point, index) => (
-            <p style={{ fontFamily: 'Exo, sans-serif' }} key={index} className="text-sm leading-loose text-white px-4 ">{point}<br></br></p>
+            <p style={{ fontFamily: 'Marcellus' }} key={index} className="text-sm leading-loose text-white px-4 ">{point}<br></br></p>
           ))}
         </div>
       );
@@ -26,7 +26,7 @@ export default function SpaceDayCelebration() {
 
                 {/* Event Details on top of Background */}
                 <div className="relative z-10 text-white px-4 py-8 md:px-16">
-                    <h2 style={{ fontFamily: "'Orbitron', sans-serif"}} className="text-6xl my-4 mb-5 text-center">{spaceDayEvent?.title}</h2>
+                    <h2 style={{ fontFamily: 'Nulshock', fontSize: "3rem" }} className="text-6xl my-4 mb-5 text-center">{spaceDayEvent?.title}</h2>
                    
 
                     {/* Gallery Section */}
@@ -44,9 +44,9 @@ export default function SpaceDayCelebration() {
   </div>
 </div>
 
-<p className="text-md mb-2 text-center" style={{ fontFamily: 'Exo, sans-serif' }}>Date: {spaceDayEvent?.date}</p>
-<p className="text-md mb-6 text-center" style={{ fontFamily: 'Exo, sans-serif' }}>Location: {spaceDayEvent?.location}</p>
-<p className="text-md text-center leading-none relative bottom-3" style={{ fontFamily: 'Exo, sans-serif' }}>Timings: {spaceDayEvent?.timings}</p>
+<p className="text-md mb-2 text-center" style={{ fontFamily: 'Marcellus' }}>Date: {spaceDayEvent?.date}</p>
+<p className="text-md mb-6 text-center" style={{ fontFamily: 'Marcellus' }}>Location: {spaceDayEvent?.location}</p>
+<p className="text-md text-center leading-none relative bottom-3" style={{ fontFamily: 'Marcellus' }}>Timings: {spaceDayEvent?.timings}</p>
                 </div>
                 <div
   className="event-overview text-center relative bottom-7 mx-40 "
@@ -62,7 +62,7 @@ export default function SpaceDayCelebration() {
   }}
 >
   <h2
-    style={{ fontFamily: 'Exo, sans-serif' }}
+   style={{ fontFamily: 'Marcellus' }}
     className="text-4xl leading-loose text-white "
   >
     Overview of {spaceDayEvent?.title}

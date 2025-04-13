@@ -8,7 +8,7 @@ export default function AstroGazing() {
       return (
         <div className="overview pb-9">
           {Object.values(overview).map((point, index) => (
-            <p style={{ fontFamily: 'Exo, sans-serif' }} key={index} className="text-sm leading-loose text-white px-4 ">{point}<br></br></p>
+            <p style={{ fontFamily: 'Marcellus' }}  key={index} className="text-sm leading-loose text-white px-2 ">{point}<br></br></p>
           ))}
         </div>
       );
@@ -24,7 +24,7 @@ export default function AstroGazing() {
                 <div id="stars3" className="absolute inset-0"></div>
 
                 <div className="relative z-10 text-white px-4 py-8 md:px-16">
-                    <h2 style={{ fontFamily: "'Orbitron', sans-serif"}} className="text-6xl my-4 mb-5 text-center">{astroGazingEvent.title}</h2>
+                    <h2 style={{ fontFamily: 'Nulshock', fontSize: "3rem" }} className="text-6xl my-4 mb-5 text-center">{astroGazingEvent.title}</h2>
                     
 
                     <div className="overflow-hidden relative w-full">
@@ -40,9 +40,9 @@ export default function AstroGazing() {
                         </div>
                     </div>
                     
-                    <p className="text-md mb-2 text-center" style={{ fontFamily: 'Exo, sans-serif' }}>Date: {astroGazingEvent.date}</p>
-                    <p className="text-md mb-6 text-center" style={{ fontFamily: 'Exo, sans-serif' }}>Location: {astroGazingEvent.location}</p>
-                    <p className="text-md text-center leading-none relative bottom-3" style={{ fontFamily: 'Exo, sans-serif' }}>Timings: {astroGazingEvent.timings}</p>
+                    <p className="text-md mb-2 text-center" style={{ fontFamily: 'Marcellus' }} >Date: {astroGazingEvent.date}</p>
+                    <p className="text-md mb-6 text-center" style={{ fontFamily: 'Marcellus' }} >Location: {astroGazingEvent.location}</p>
+                    <p className="text-md text-center leading-none relative bottom-3" style={{ fontFamily: 'Marcellus' }} >Timings: {astroGazingEvent.timings}</p>
                 </div>
                 
                 <div
@@ -59,7 +59,7 @@ export default function AstroGazing() {
                     }}
                 >
                     <h2
-                        style={{ fontFamily: 'Exo, sans-serif' }}
+                      style={{ fontFamily: 'Marcellus' }} 
                         className="text-4xl leading-loose text-white "
                     >
                         Overview of {astroGazingEvent.title}

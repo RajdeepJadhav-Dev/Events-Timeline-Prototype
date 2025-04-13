@@ -29,9 +29,7 @@ export default function EventsPage(){
         <div id="stars3"></div>
 </section>
           <VerticalTimeline lineColor="white">
-          <div style={{
-  fontFamily: "'Orbitron', sans-serif"
-}} className="text-white text-[110px] leading-[120px] absolute z-50  top-44 ">Event <br></br>Timeline 
+          <div style={{ fontFamily: 'Nulshock', fontSize: "6rem" }} className="text-white text-[110px] leading-[90px] absolute z-50  top-52 ">Event <br></br>Timeline 
   <div className="flex justify-center mt-3">
   <span className="text-white animate-bounce text-[50px] pt-3">↓</span>
 </div>
@@ -65,8 +63,8 @@ export default function EventsPage(){
                 className="fade-in"
                 
               >
-                <h3   style={{ fontFamily: "'Orbitron', sans-serif", fontSize: "1rem" }}className="text-xl font-bold text-center">{event.title}</h3>
-                <p className="text-center"   style={{ fontFamily: "'Exo', sans-serif", color: "#ffffff", fontSize: "0.85rem" }}>{event.overview.point1}</p>
+                <h3   style={{ fontFamily: 'Nulshock', fontSize: "1rem" }}className="text-xl font-bold text-center">{event.title}</h3>
+                <p className="text-center"    style={{ fontFamily: 'Marcellus' }}>{event.overview.point1}</p>
 
              
                 {event.img && (

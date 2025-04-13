@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Nulshock';
+  src: url('./fonts/nulshock bd.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 
 @keyframes scroll {
